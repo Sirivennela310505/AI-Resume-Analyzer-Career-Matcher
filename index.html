@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Resume Analyzer & Career Matcher</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="light">
+  <header>
+    <h1>🤖 AI Resume Analyzer & Career Matcher</h1>
+    <p>Analyze your resume, find best job matches, and get skill insights 🚀</p>
+    <button id="themeToggle" class="theme-btn">🌙 Dark Mode</button>
+  </header>
+
+  <main>
+    <section class="input-section glass-card">
+      <h2>📄 Upload or Paste Your Resume</h2>
+      <textarea id="resumeText" rows="10" placeholder="Paste your resume text here..."></textarea>
+      <div class="buttons">
+        <button onclick="analyzeResume()">🔍 Analyze Resume</button>
+        <button onclick="loadSample()">📘 Load Sample Resume</button>
+        <button onclick="showInsights()">💡 Smart Resume Insights</button>
+        <button onclick="recommendCareer()">🧭 Recommend Career Paths</button>
+        <button onclick="downloadReport()">⬇️ Download Report</button>
+      </div>
+    </section>
+
+    <section class="output-section glass-card" id="output">
+      <h2>🧠 Analysis Result</h2>
+      <div id="analysisResult">Your analysis will appear here...</div>
+    </section>
+
+    <section class="career-section glass-card" id="careerPath">
+      <h2>🎓 Career Path Recommender</h2>
+      <div id="careerResult">Upload your resume and click "Recommend Career Paths" to get personalized job suggestions and learning paths.</div>
+    </section>
+
+    <section class="insight-section glass-card" id="insightSection">
+      <h2>🧾 Smart Resume Insights</h2>
+      <div id="insightResult">Click “Smart Resume Insights” to discover improvements and tips for your resume.</div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 AI Resume Analyzer | Designed for Students 🌈</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
