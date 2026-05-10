@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Resume Analyzer & Career Matcher</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="logo">AI Career Assistant</div>
+    <div class="nav-links">
+      <a href="#features">Features</a>
+      <a href="#analyze">Analyze</a>
+      <a href="#career">Career Path</a>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="hero-content">
+      <p class="tag">Built for students and freshers</p>
+      <h1>Build a Better Resume. Find Your Right Career Path.</h1>
+      <p class="hero-text">
+        A smart resume analysis tool that checks your resume, finds missing skills,
+        gives improvement tips, and suggests suitable career paths.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="#analyze" class="primary-btn">Analyze Resume</a>
+        <a href="#features" class="secondary-btn">View Features</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="features" class="section">
+      <h2>What this tool helps with</h2>
+
+      <div class="feature-grid">
+        <div class="card">
+          <h3>ATS Resume Score</h3>
+          <p>Checks how strong your resume is for internship and job applications.</p>
+        </div>
+
+        <div class="card">
+          <h3>Missing Skills Detection</h3>
+          <p>Finds important skills missing from your resume based on your career goal.</p>
+        </div>
+
+        <div class="card">
+          <h3>Career Path Suggestions</h3>
+          <p>Suggests suitable roles like Frontend Developer, Full Stack Developer, or Data Analyst.</p>
+        </div>
+
+        <div class="card">
+          <h3>Resume Improvement Tips</h3>
+          <p>Gives simple suggestions to improve projects, skills, summary, and achievements.</p>
+        </div>
+      </div>
+    </section>
+
+   <section id="analyze" class="section analyze-section">
+
+  <div class="analyze-box">
+
+    <h2>Analyze Your Resume</h2>
+
+    <p class="upload-note">
+      Upload your resume in PDF format to get AI-powered analysis and career suggestions.
+    </p>
+
+    <!-- Hidden textarea -->
+    <textarea id="resumeText" hidden></textarea>
+
+    <div class="button-group">
+
+      <button onclick="analyzeResume()">
+        Analyze Resume
+      </button>
+
+      <input 
+        type="file"
+        id="resumeFile"
+        accept=".pdf,application/pdf"
+        hidden
+        onchange="uploadResumePDF()"
+      />
+
+      <button onclick="document.getElementById('resumeFile').click()">
+        Upload Resume
+      </button>
+
+      <button onclick="showInsights()">
+        Resume Tips
+      </button>
+
+      <button onclick="recommendCareer()">
+        Career Match
+      </button>
+
+    </div>
+
+    <!-- Upload Status -->
+    <p id="uploadStatus" class="upload-status">
+      No resume uploaded yet.
+    </p>
+
+  </div>
+
+</section>
+
+    <section class="section result-section">
+      <div class="result-card">
+        <h2>Analysis Result</h2>
+        <div id="analysisResult">Your resume analysis will appear here.</div>
+      </div>
+
+      <div class="result-card" id="career">
+        <h2>Career Path Recommendation</h2>
+        <div id="careerResult">Your suggested career paths will appear here.</div>
+      </div>
+
+      <div class="result-card">
+        <h2>Resume Improvement Tips</h2>
+        <div id="insightResult">Your resume improvement suggestions will appear here.</div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 AI Resume Analyzer & Career Matcher | Student Career Project</p>
+  </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.16.105/pdf.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
