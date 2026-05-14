@@ -1,58 +1,62 @@
 # 📄 AI Resume Analyzer & Career Matcher
 
-> An AI-powered web application that analyzes resumes, calculates ATS score, detects missing skills, suggests career paths, and helps students improve their resumes for internships and placements.
+> An AI-powered resume analysis web application that helps students and freshers improve their resumes, detect missing skills, calculate ATS score, and discover suitable career paths.
 
 ---
 
-
 # 📌 About The Project
 
-AI Resume Analyzer & Career Matcher is a smart career assistance platform designed for students, freshers, and job seekers.
+AI Resume Analyzer & Career Matcher is a smart career assistance platform designed for students, freshers, and internship seekers.
 
-The application helps users:
-- upload resumes in PDF format
-- analyze ATS compatibility
-- identify missing skills
-- discover suitable career paths
-- improve resume quality
-- prepare for interviews
-- find project ideas
-- explore internship platforms
+The application analyzes uploaded resumes and provides:
+- ATS compatibility score
+- missing skill detection
+- career path recommendations
+- resume improvement tips
+- skill-based analysis
 
-The project focuses on helping students build stronger resumes and improve placement preparation.
+The goal of the project is to help users build stronger resumes for internships and placements.
 
 ---
 
 # ✨ Core Features
 
 ## 📄 PDF Resume Upload
-- Upload resume in PDF format
+- Upload resumes in PDF format
 - Automatic resume text extraction
-- AI-powered resume analysis
+- Fast resume analysis workflow
 
 ---
 
 ## 📊 ATS Resume Score
 - Calculates ATS compatibility score
-- Resume strength breakdown
-- Skills match analysis
-- Resume section quality check
+- Resume strength analysis
+- Skill match detection
+- Resume quality breakdown
 
 ---
 
-## 🧠 Skill Gap Detection
+## 🧠 Missing Skills Detection
 - Detects missing technical skills
-- Identifies weak resume areas
+- Identifies improvement areas
 - Suggests important technologies to learn
+
+Examples:
+- React
+- SQL
+- GitHub
+- APIs
+- Cloud Technologies
 
 ---
 
 ## 🚀 Career Path Recommendation
-Suggests suitable career roles such as:
+Suggests suitable career roles based on resume skills.
+
+Examples:
 - Frontend Developer
 - Full Stack Developer
 - Java Developer
-- Data Analyst
 - AI/ML Engineer
 - Cloud Engineer
 
@@ -60,50 +64,22 @@ Suggests suitable career roles such as:
 
 ## 🛠 Resume Improvement Tips
 Provides suggestions to:
-- improve resume structure
-- add strong project descriptions
+- improve project descriptions
 - improve ATS keywords
-- enhance technical profile
+- strengthen technical profile
+- enhance resume structure
 
 ---
 
-## 💡 AI Project Suggestions
-Recommends project ideas based on detected skills.
+## 📈 Resume Strength Analysis
+Checks important resume sections:
+- Education
+- Skills
+- Projects
+- Experience
+- Certifications
 
-Examples:
-- AI Resume Analyzer
-- Expense Tracker
-- Portfolio Website
-- Student Skill Tracker
-- Hospital Management System
-
----
-
-## 🎯 Internship Recommendation
-Suggests platforms such as:
-- Internshala
-- LinkedIn
-- Unstop
-- Wellfound
-- Indeed
-- Naukri
-
----
-
-## 🗺 Resume Improvement Roadmap
-Generates a personalized roadmap for:
-- improving technical skills
-- strengthening projects
-- preparing for interviews
-- applying for internships
-
----
-
-## 🎤 Interview Questions Generator
-Generates interview questions based on:
-- detected skills
-- career role
-- technical domain
+Highlights missing sections clearly.
 
 ---
 
@@ -125,9 +101,8 @@ Generates interview questions based on:
 3. Analyze technical skills
 4. Calculate ATS score
 5. Detect missing skills
-6. Suggest career paths
-7. Generate improvement roadmap
-8. Recommend interview preparation
+6. Recommend career paths
+7. Generate improvement suggestions
 
 ---
 
@@ -143,12 +118,12 @@ screenshots/homepage.png
 
 ---
 
-## 📊 ATS Analysis Dashboard
+## 📊 ATS Analysis
 
 Add screenshot here.
 
 ```text
-screenshots/ats-dashboard.png
+screenshots/ats-analysis.png
 ```
 
 ---
@@ -158,17 +133,7 @@ screenshots/ats-dashboard.png
 Add screenshot here.
 
 ```text
-screenshots/career-match.png
-```
-
----
-
-## 🛠 Resume Tips
-
-Add screenshot here.
-
-```text
-screenshots/resume-tips.png
+screenshots/career-recommendation.png
 ```
 
 ---
@@ -209,19 +174,18 @@ AI-Resume-Analyzer-Career-Matcher/
 
 # 🎯 Project Goal
 
-The goal of this project is to help students and freshers improve resume quality, identify skill gaps, increase ATS compatibility, and prepare effectively for internships and placements using AI-powered analysis.
+The goal of this project is to help students and freshers improve resume quality, identify missing skills, increase ATS compatibility, and prepare effectively for internships and placements.
 
 ---
 
 # 🌟 Future Improvements
 
-- Resume vs Job Description Match
-- AI Resume Summary Generator
 - Resume Builder
 - Resume Templates
-- AI Chat Career Assistant
-- Portfolio Review System
-- Cloud Database Integration
+- Interview Question Generator
+- Internship Recommendation System
+- Resume vs Job Description Match
+- AI Resume Summary Generator
 
 ---
 
@@ -232,3 +196,4 @@ The goal of this project is to help students and freshers improve resume quality
 🔗 GitHub:  
 https://github.com/Sirivennela310505
 
+---
